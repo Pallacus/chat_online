@@ -7,6 +7,9 @@ app.use(express.json());
 app.use(cors());
 
 // Configuración de rutas
+app.get('/', (req, res) => {
+    res.send('Ruta dentro del back');
+})
 
 
 
